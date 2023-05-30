@@ -18,7 +18,7 @@ struct ContentItem: View {
                     .frame(width: 40, height: 40)
                     .clipShape(Circle())
                 
-                Text("Name")
+                Text("Jeong")
                     .foregroundColor(.blue)
                     .font(.system(size: 20))
                     .fontWeight(.bold)
