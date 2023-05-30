@@ -8,14 +8,17 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationView {
+            ScrollView {
+                ForEach((0...20), id: \.self) { index in
+                    NavigationLink(destination: DetailContentView(index: index)) {
+                        ContentItem()
+                    }
+                }
+            }
         }
-        .padding()
     }
 }
 

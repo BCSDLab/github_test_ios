@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E0334E4B2A0A70DD008484AA /* DetailContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0334E4A2A0A70DD008484AA /* DetailContentView.swift */; };
 		E0B6DA0E29CDCBE200D16D51 /* koreatechgramApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B6DA0D29CDCBE200D16D51 /* koreatechgramApp.swift */; };
 		E0B6DA1029CDCBE200D16D51 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B6DA0F29CDCBE200D16D51 /* ContentView.swift */; };
 		E0B6DA1229CDCBE300D16D51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0B6DA1129CDCBE300D16D51 /* Assets.xcassets */; };
 		E0B6DA1529CDCBE300D16D51 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0B6DA1429CDCBE300D16D51 /* Preview Assets.xcassets */; };
+		E0BA621129E9780A00161070 /* ContentItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BA621029E9780A00161070 /* ContentItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E0334E4A2A0A70DD008484AA /* DetailContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailContentView.swift; sourceTree = "<group>"; };
 		E0B6DA0A29CDCBE200D16D51 /* koreatechgram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = koreatechgram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0B6DA0D29CDCBE200D16D51 /* koreatechgramApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = koreatechgramApp.swift; sourceTree = "<group>"; };
 		E0B6DA0F29CDCBE200D16D51 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E0B6DA1129CDCBE300D16D51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0B6DA1429CDCBE300D16D51 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E0BA621029E9780A00161070 /* ContentItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				E0B6DA0F29CDCBE200D16D51 /* ContentView.swift */,
 				E0B6DA1129CDCBE300D16D51 /* Assets.xcassets */,
 				E0B6DA1329CDCBE300D16D51 /* Preview Content */,
+				E0BA621029E9780A00161070 /* ContentItem.swift */,
+				E0334E4A2A0A70DD008484AA /* DetailContentView.swift */,
 			);
 			path = koreatechgram;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0334E4B2A0A70DD008484AA /* DetailContentView.swift in Sources */,
+				E0BA621129E9780A00161070 /* ContentItem.swift in Sources */,
 				E0B6DA1029CDCBE200D16D51 /* ContentView.swift in Sources */,
 				E0B6DA0E29CDCBE200D16D51 /* koreatechgramApp.swift in Sources */,
 			);
